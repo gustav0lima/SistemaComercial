@@ -174,8 +174,8 @@ public class ViewPrincipal extends javax.swing.JFrame {
             uJPanelImagem1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(uJPanelImagem1Layout.createSequentialGroup()
-                .addGap(0, 686, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         uJPanelImagem1Layout.setVerticalGroup(
             uJPanelImagem1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -298,16 +298,6 @@ public class ViewPrincipal extends javax.swing.JFrame {
         new ViewVendas().setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
-    private void jbClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbClientesActionPerformed
-        // TODO add your handling code here:
-        new ViewCliente().setVisible(true);
-    }//GEN-LAST:event_jbClientesActionPerformed
-
-    private void jbProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbProdutosActionPerformed
-        // TODO add your handling code here:
-        new ViewProduto().setVisible(true);
-    }//GEN-LAST:event_jbProdutosActionPerformed
-
     private void jbVendasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbVendasActionPerformed
         // TODO add your handling code here:
         new ViewVendas().setVisible(true);
@@ -317,6 +307,16 @@ public class ViewPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         new ViewUsuario().setVisible(true);
     }//GEN-LAST:event_jbUsuarioActionPerformed
+
+    private void jbProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbProdutosActionPerformed
+        // TODO add your handling code here:
+        new ViewProduto().setVisible(true);
+    }//GEN-LAST:event_jbProdutosActionPerformed
+
+    private void jbClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbClientesActionPerformed
+        // TODO add your handling code here:
+        new ViewCliente().setVisible(true);
+    }//GEN-LAST:event_jbClientesActionPerformed
 
     /**
      * @param args the command line arguments
