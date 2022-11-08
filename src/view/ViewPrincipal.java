@@ -56,11 +56,12 @@ public class ViewPrincipal extends javax.swing.JFrame {
         setTitle("Comercial Aylla");
         setResizable(false);
 
-        uJPanelImagem1.setImagem(new java.io.File("C:\\VendasBL\\src\\imagens\\Software.jpg"));
+        uJPanelImagem1.setImagem(new java.io.File("C:\\Users\\GUSTAVO LIMA\\Documents\\MyProjects\\SistemaComercial\\src\\imagens\\BKG_GUSTAVO.png"));
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 204));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Menu", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(0, 51, 153))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(2, 50, 70));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Menu", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(40, 112, 148))); // NOI18N
 
+        jbClientes.setBackground(new java.awt.Color(212, 212, 206));
         jbClientes.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jbClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/People.png"))); // NOI18N
         jbClientes.setText("Clientes");
@@ -70,6 +71,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jbProdutos.setBackground(new java.awt.Color(212, 212, 206));
         jbProdutos.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jbProdutos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Blue tag.png"))); // NOI18N
         jbProdutos.setText("Produtos");
@@ -79,6 +81,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jbUsuario.setBackground(new java.awt.Color(212, 212, 206));
         jbUsuario.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jbUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/People.png"))); // NOI18N
         jbUsuario.setText("Usuários");
@@ -88,6 +91,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jbVendas.setBackground(new java.awt.Color(212, 212, 206));
         jbVendas.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jbVendas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/24x24/Shopping cart.png"))); // NOI18N
         jbVendas.setText("Vendas");
@@ -148,7 +152,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jlUsuario)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 539, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 545, Short.MAX_VALUE)
                 .addComponent(jLabel5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jlData)
@@ -170,7 +174,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
             uJPanelImagem1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(uJPanelImagem1Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 686, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         uJPanelImagem1Layout.setVerticalGroup(
