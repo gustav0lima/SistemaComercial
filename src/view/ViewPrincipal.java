@@ -56,7 +56,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
         setTitle("Comercial Aylla");
         setResizable(false);
 
-        uJPanelImagem1.setImagem(new java.io.File("C:\\Users\\GUSTAVO LIMA\\Documents\\MyProjects\\SistemaComercial\\src\\imagens\\BKG_GUSTAVO.png"));
+        uJPanelImagem1.setImagem(new java.io.File("C:\\Users\\GUSTAVO LIMA\\Documents\\MyProjects\\SistemaComercial\\src\\imagens\\BKG_GUSTAVO2.png"));
 
         jPanel1.setBackground(new java.awt.Color(2, 50, 70));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Menu", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(40, 112, 148))); // NOI18N
