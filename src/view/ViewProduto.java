@@ -69,14 +69,20 @@ public class ViewProduto extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Produtos");
 
+        jPanel1.setBackground(new java.awt.Color(40, 112, 148));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("Código:");
 
         jtfCodigo.setEnabled(false);
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setText("Nome:");
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Estoque:");
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Valor:");
 
         jtableProdutos.setModel(new javax.swing.table.DefaultTableModel(
@@ -108,6 +114,7 @@ public class ViewProduto extends javax.swing.JFrame {
             jtableProdutos.getColumnModel().getColumn(1).setPreferredWidth(300);
         }
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Pesquisar:");
 
         jbPesquisa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Search.png"))); // NOI18N

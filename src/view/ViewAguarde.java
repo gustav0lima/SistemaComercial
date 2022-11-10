@@ -33,6 +33,7 @@ public class ViewAguarde extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(40, 112, 148));
 
         jLabel1.setText("Aguarde, gerando relatório...");
 

@@ -62,7 +62,7 @@ public class ViewLogin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Login");
 
-        jPanel1.setBackground(new java.awt.Color(212, 212, 206));
+        jPanel1.setBackground(new java.awt.Color(40, 112, 148));
         jPanel1.setForeground(new java.awt.Color(212, 212, 206));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
@@ -159,14 +159,16 @@ public class ViewLogin extends javax.swing.JFrame {
         );
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 51, 153));
         jLabel5.setText("Trabalho Programação II");
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Prof.: Hilson Silva");
 
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Alunos: Levi Martins e Gustavo Lima");
 
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Estacio de Sá - Teresina PI");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

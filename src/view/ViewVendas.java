@@ -112,6 +112,7 @@ public class ViewVendas extends javax.swing.JFrame {
         setTitle("Vendas");
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(40, 112, 148));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jtfCodigoCliente.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -121,18 +122,22 @@ public class ViewVendas extends javax.swing.JFrame {
         });
         jPanel1.add(jtfCodigoCliente, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 31, 79, -1));
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("Código Cli.");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setText("Nome do Cliente:");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 11, -1, -1));
 
         jtfNumeroVenda.setBackground(new java.awt.Color(204, 255, 204));
         jPanel1.add(jtfNumeroVenda, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 31, 158, -1));
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Número da venda:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(515, 11, -1, -1));
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Cod. Prod.");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 62, -1, -1));
 
@@ -144,6 +149,7 @@ public class ViewVendas extends javax.swing.JFrame {
         jPanel1.add(jtfCodigoProduto, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 85, 79, -1));
         jPanel1.add(jtfQuantidade, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 85, 114, -1));
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setText("Quantidade:");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 60, -1, -1));
 
@@ -221,12 +227,15 @@ public class ViewVendas extends javax.swing.JFrame {
         });
         jPanel1.add(jtfDesconto, new org.netbeans.lib.awtextra.AbsoluteConstraints(431, 427, 111, -1));
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setText("Valor total:");
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(548, 402, -1, -1));
 
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setText("Desconto:");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(431, 402, -1, -1));
 
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setText("Nome do Produto:");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 62, -1, -1));
 
@@ -265,6 +274,9 @@ public class ViewVendas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Cadastro", jPanel1);
 
+        jPanel2.setBackground(new java.awt.Color(40, 112, 148));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setText("Pesquisa:");
 
         jbPesquisar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/18x18/Search.png"))); // NOI18N

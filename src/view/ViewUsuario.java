@@ -62,15 +62,21 @@ public class ViewUsuario extends javax.swing.JFrame {
         setTitle("Usuário");
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(40, 112, 148));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setText("Código");
 
         jtfCodigo.setEditable(false);
         jtfCodigo.setEnabled(false);
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setText("Nome:");
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel3.setText("Login:");
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel4.setText("Senha:");
 
         jtUsuario.setModel(new javax.swing.table.DefaultTableModel(
